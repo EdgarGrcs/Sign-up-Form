@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.box1 {
+    background-color: black;
+    display:flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-image-container {
+    position:relative;
+}
+
+.image-class {
+    display: flex;
+}
+
+.logo-container {
+    position:absolute;
+    top: 30%;
+    left: 1px;
+    width: 900px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.credits {
+    border: 2px solid red;
+    position:absolute;
+    color: white;
+    top: 97%;
+    left: 3%;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
