@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     position:absolute;
     top: 30%;
     left: 0;
-    width: 500px;
+    width: 600px;
     height: 200px;
     background-color: black;
     opacity: 0.5;
@@ -30,14 +31,14 @@ body {
 .credits {
     border: 2px solid red;
     position:absolute;
-    color: white;
-    top: 97%;
-    left: 3%;
+    color: black;
+    top: 1%;
+    left: 25%;
     text-decoration: none;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 .text-forms-container {
@@ -49,6 +50,11 @@ a {
     color: white;
     flex-wrap: wrap;
 
+}
+
+.motivational {
+    color: white;
+    border: 2px solid red;
 }
 
 
@@ -103,6 +109,10 @@ input[type=email] {
 }
 
 button {
-    background-color: blue;
+    background-color: #00daff;
+}
+
+.existing-account {
+    color: white;
 }
 
