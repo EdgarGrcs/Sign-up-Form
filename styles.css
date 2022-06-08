@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.box1 {
+.container {
     background-color: black;
     display:flex;
     align-items: center;
@@ -20,8 +20,8 @@ body {
 .logo-container {
     position:absolute;
     top: 30%;
-    left: 1px;
-    width: 900px;
+    left: 0;
+    width: 500px;
     height: 200px;
     background-color: black;
     opacity: 0.5;
@@ -38,5 +38,40 @@ body {
 
 a {
     color: white;
+}
+
+.text-forms-container {
+    display:inline-block;
+
+}
+
+.motivation-text-item {
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+
+.forms-container {
+    border: 2px solid red;
+    display:flex;
+    width: 100%;
+}
+
+.forms {
+    color:white;
+
+}
+
+input {
+    color:white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
 }
 
