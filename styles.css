@@ -1,74 +1,13 @@
-body {
-    margin: 0;
-    background-color: black;
-}
-
-.container {
-    background-color: black;
-    display:flex;
-    align-items: center;
-    align-content: center;
-}
-
-.logo-image-container {
-    position:relative;
-}
-
-.image-class {
-    display: flex;
-}
-
-.logo-container {
-    position:absolute;
-    top: 30%;
-    left: 0;
-    width: 600px;
-    height: 200px;
-    background-color: black;
-    opacity: 0.5;
-}
-
-.credits {
-    border: 2px solid red;
-    position:absolute;
-    color: black;
-    top: 1%;
-    left: 25%;
-    text-decoration: none;
-}
-
-a {
-    color: black;
-}
-
-.text-forms-container {
-    display:inline-block;
-
-}
-
-.motivation-text-item {
-    color: white;
-    flex-wrap: wrap;
-
-}
-
-.motivational {
-    color: white;
-    border: 2px solid red;
-}
-
 
 .forms-container {
     border: 2px solid red;
     display:flex;
     width: 80%;
 }
-
 .forms {
     color:white;
 
 }
-
 input[type=text] {
     width: 20%;
     padding: 12px 20px;
@@ -108,11 +47,4 @@ input[type=email] {
     box-sizing: border-box;
 }
 
-button {
-    background-color: #00daff;
-}
-
-.existing-account {
-    color: white;
-}
 
