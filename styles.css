@@ -55,6 +55,8 @@ img {
     border: 2px solid blue;
     height: 100px;
     width: 600px;
+    position:absolute;
+    top:10%;
 }
 
 .forms-container {
@@ -62,6 +64,7 @@ img {
     top: 35%;
     box-shadow: 2px 2px 5px grey;
     width: 70vw;
+    height: 30vh;
 }
 
 
@@ -72,5 +75,32 @@ img {
 
 }
 
+.sign-up-button {
+    position: absolute;
+    top: 70%;
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight:bold;
+    font-family: arial, serif;
+    width: 150px;
+    right: 53%;
+}
+
+.login {
+    position: absolute;
+    top: 77%;
+    right: 51%;
+    width: 250px;
+    display:flex;
+    border: 2px solid red;
+}
 
 
