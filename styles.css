@@ -2,7 +2,6 @@ body{
     background: black;
     height: 100vh;
     width: 100vw;
-    border: 2px solid red;
     margin: 0;
 
 }
@@ -10,7 +9,6 @@ body{
 .container {
     height: 100vh;
     width: 100vw;
-    border: 2px solid red;
     margin: 0;
     display: flex;
 }
@@ -47,7 +45,6 @@ img {
     height: 100vh;
     display: block;
     background: white;
-    border: 2px solid red;
 }
 
 .motivation-text {
@@ -57,6 +54,8 @@ img {
     width: 600px;
     position:absolute;
     top:10%;
+    font-weight: bold;
+    font-family: arial, serif;
 }
 
 .forms-container {
@@ -67,13 +66,56 @@ img {
     height: 30vh;
 }
 
-
-
-
 .forms {
     color:black;
-
+    font-weight: bold;
+    font-family: arial, serif;
 }
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+input[type=email], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+}
+input[type=number], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+input[type=password], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
 
 .sign-up-button {
     position: absolute;
@@ -88,7 +130,7 @@ img {
     display: inline-block;
     font-size: 18px;
     border-radius: 5px;
-    font-weight:bold;
+    font-weight: bold;
     font-family: arial, serif;
     width: 150px;
     right: 53%;
@@ -101,6 +143,12 @@ img {
     width: 250px;
     display:flex;
     border: 2px solid red;
+    font-family: arial, serif;
+    gap: 5px;
+}
+
+a {
+    color:#4CAF50;
 }
 
 
