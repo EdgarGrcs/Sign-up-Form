@@ -3,7 +3,6 @@ body{
     height: 100vh;
     width: 100vw;
     margin: 0;
-
 }
 
 .container {
@@ -14,23 +13,36 @@ body{
 }
 
 .left-side {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
 }
 
 img {
-    height: 100vh;
-    width: 30vw;
+    height: 100%;
+    width: 40vw;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .logo-container {
     position:absolute;
     top: 20%;
-    width: 30vw;
+    width: 40vw;
     height: 13vh;
     background: black;
     opacity: 50%;
     color: white;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    position:absolute;
+    top: 21%;
+    left: 10%;
+    border: 2px solid red;
+
 }
 
 .photo-credit {
@@ -38,13 +50,14 @@ img {
     position: absolute;
     top: 99%;
     left:6%;
+    font-family:arial,serif;
 }
 
 .right-side {
     width: 70vw;
     height: 100vh;
     display: block;
-    background: white;
+    background: #f8f8f8;
 }
 
 .motivation-text {
@@ -64,65 +77,65 @@ img {
     box-shadow: 2px 2px 5px grey;
     width: 70vw;
     height: 30vh;
+    background: white;
 }
 
 .forms {
     color:black;
     font-weight: bold;
     font-family: arial, serif;
+    display:flex;
 }
 
-input[type=text], select {
-    width: 20%;
+input, label {
+    display:block;
+ }
+
+
+input[type=text] {
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    display: flex;
 }
 
-input[type=email], select {
-    width: 20%;
+input[type=email] {
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    display: flex;
 }
-input[type=number], select {
-    width: 20%;
+input[type=number] {
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    display: flex;
 }
 
-input[type=password], select {
-    width: 20%;
+input[type=password] {
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    display: flex;
 }
 
-
+.first-last-name {
+    display:flex;
+}
 
 .sign-up-button {
     position: absolute;
     top: 70%;
-
+    border: 5px solid blue;
     background-color: #4CAF50; /* Green */
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -133,18 +146,17 @@ input[type=password], select {
     font-weight: bold;
     font-family: arial, serif;
     width: 150px;
-    right: 53%;
 }
 
 .login {
     position: absolute;
     top: 77%;
-    right: 51%;
     width: 250px;
     display:flex;
     border: 2px solid red;
     font-family: arial, serif;
     gap: 5px;
+    border: 2px solid blue;
 }
 
 a {
