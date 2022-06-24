@@ -17,7 +17,7 @@ body{
     height: 100vh;
 }
 
-img {
+.background-image{
     height: 100%;
     width: 40vw;
     background-position: center;
@@ -33,16 +33,25 @@ img {
     background: black;
     opacity: 50%;
     color: white;
+    display:flex;
+    justify-content:center;
+
 }
 
 .logo {
-    width: 100px;
-    height: auto;
-    position:absolute;
-    top: 21%;
-    left: 10%;
+    width: 90px;
+    height: 120px;
+    position:relative;
+    top: 9%;
+    right:10%;
     border: 2px solid red;
 
+}
+
+.img-logo {
+    display:flex;
+    width: 90px;
+    height: auto;
 }
 
 .photo-credit {
@@ -69,6 +78,8 @@ img {
     top:10%;
     font-weight: bold;
     font-family: arial, serif;
+    left: 45%;
+    font-size: 23px;
 }
 
 .forms-container {
@@ -146,6 +157,7 @@ input[type=password] {
     font-weight: bold;
     font-family: arial, serif;
     width: 150px;
+    left: 45%;
 }
 
 .login {
@@ -153,10 +165,10 @@ input[type=password] {
     top: 77%;
     width: 250px;
     display:flex;
-    border: 2px solid red;
     font-family: arial, serif;
     gap: 5px;
     border: 2px solid blue;
+    left: 45%;
 }
 
 a {
