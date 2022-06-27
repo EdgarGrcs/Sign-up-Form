@@ -1,51 +1,40 @@
 body{
     background: black;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
+    border: 2px solid red;
 }
 
 .container {
     height: 100vh;
-    width: 100vw;
-    margin: 0;
+
     display: flex;
 }
 
 .left-side {
-    width: 40vw;
+    width: 40%;
+    max-width: 40%;
     height: 100vh;
+    background-image: url("/Images/thomas-kelley-JoH60FhTp50-unsplash.jpg");
+    background-size: cover;
 }
-
-.background-image{
-    height: 100%;
-    width: 40vw;
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
 .logo-container {
-    position:absolute;
-    top: 20%;
-    width: 40vw;
-    height: 13vh;
+    margin-top: 25%;
+    width: 100%;
     background: black;
     opacity: 50%;
     color: white;
     display:flex;
     justify-content:center;
-
 }
 
 .logo {
-    width: 90px;
-    height: 120px;
     position:relative;
     top: 9%;
-    right:10%;
+    right:15%;
     border: 2px solid red;
-
+    display:flex;
 }
 
 .img-logo {
@@ -63,9 +52,7 @@ body{
 }
 
 .right-side {
-    width: 70vw;
-    height: 100vh;
-    display: block;
+    width: 70%;
     background: #f8f8f8;
 }
 
@@ -74,21 +61,19 @@ body{
     border: 2px solid blue;
     height: 100px;
     width: 600px;
-    position:absolute;
-    top:10%;
     font-weight: bold;
     font-family: arial, serif;
-    left: 45%;
     font-size: 23px;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .forms-container {
-    position: absolute;
-    top: 35%;
     box-shadow: 2px 2px 5px grey;
-    width: 70vw;
+    width:100%;
     height: 30vh;
     background: white;
+    margin-top:10%;
 }
 
 .forms {
@@ -143,8 +128,6 @@ input[type=password] {
 }
 
 .sign-up-button {
-    position: absolute;
-    top: 70%;
     border: 5px solid blue;
     background-color: #4CAF50; /* Green */
     color: white;
@@ -157,18 +140,18 @@ input[type=password] {
     font-weight: bold;
     font-family: arial, serif;
     width: 150px;
-    left: 45%;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .login {
-    position: absolute;
-    top: 77%;
     width: 250px;
     display:flex;
     font-family: arial, serif;
     gap: 5px;
     border: 2px solid blue;
-    left: 45%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 a {
