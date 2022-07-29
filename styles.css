@@ -15,7 +15,7 @@ body{
     width: 40%;
     max-width: 40%;
     height: 100vh;
-    background-image: url("/Images/thomas-kelley-JoH60FhTp50-unsplash.jpg");
+    background-image: url("thomas-kelley-JoH60FhTp50-unsplash.jpg");
     background-size: cover;
     justify-content:center;
     align-items:center;
@@ -142,5 +142,5 @@ button {
 
 @font-face{
     font-family: "NorseBold";
-    src: url("Images/Norse-Bold.otf") format("opentype");
+    src: url("Norse-Bold.otf") format("opentype");
 }
